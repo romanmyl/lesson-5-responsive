@@ -2,13 +2,33 @@
     margin: 0;
 }
 body {
-    height: 200;
+    max-width: 980px;
+    margin: 0 auto;
 }
 header {
-    height: 200;
+    height: 200px;
     width: 100%;
+    background-color: blue;
+}
+aside#left {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: red;
+}
+article {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
+aside#right {
+    width: 25%;
+    height: 200px;
     background-color: green;
 }
-#1 {
-    float: right;
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: orange;
 }
