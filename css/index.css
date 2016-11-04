@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
 }
@@ -6,29 +7,23 @@ body {
     margin: 0 auto;
 }
 header {
-    height: 200px;
-    width: 100%;
     background-color: blue;
+    height: 200px;
+}
+aside {
+    height: 200px;
 }
 aside#left {
-    float: left;
-    width: 25%;
-    height: 200px;
-    background-color: red;
-}
-article {
-    float: left;
-    width: 50%;
-    height: 200px;
-    background-color: blue;
+     background-color: red;
 }
 aside#right {
-    width: 25%;
-    height: 200px;
     background-color: green;
 }
-footer {
+article {
+    background-color: grey;
     height: 200px;
-    width: 100%;
-    background-color: orange;
+}
+footer {
+    background-color: yellow;
+    height: 200px;
 }
