@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+body {
+    height: 200;
+}
+header {
+    height: 200;
+    width: 100%;
+    background-color: green;
+}
+#1 {
+    float: right;
+}
